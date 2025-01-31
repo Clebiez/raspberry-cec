@@ -30,7 +30,8 @@ import threading
 import time
 
 def delayed_stop_kodi():
-    time.sleep(300)  # 5 minutes
+    time.sleep(10) # 10 seconds for test purposes
+    # time.sleep(300)  # 5 minutes
     stop_kodi()
 
 def stop_kodi_thread_starting(stop_kodi_timer):
